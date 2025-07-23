@@ -1,6 +1,6 @@
 {
   "name": "Always Wayback",
-  "description": "Sends every website you visit to the Wayback Machine for archiving purposes",
+  "description": "Sends every website you visit to the Wayback Machine for archiving purposes. Will fail to archive about >50% of the time so dont fully trust it but i wanted to test out if i could make it :D",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["tabs","webNavigation"],
