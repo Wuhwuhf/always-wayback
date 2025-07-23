@@ -6,7 +6,7 @@ chrome.webNavigation.onCompleted.addListener(async (details) => {
         console.log("Archiving:", archiveUrl);
 
         fetch(archiveUrl)
-            .then(response => console.log("Error Wayback Responding:", response.status))
+            .then(response => console.log("Wayback Response:", response.status))
             .catch(error => console.error("Error Archiving:", error));
     } catch (error) {
         console.error("Error Getting URL:", error);
